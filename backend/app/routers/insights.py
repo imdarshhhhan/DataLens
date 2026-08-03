@@ -219,4 +219,4 @@ def save_insight(
     insight.is_saved = True
     db.commit()
 
-    return {"message": "Insight saved successfully"}
+    return {"message": "Insight ssaved successfully"}
