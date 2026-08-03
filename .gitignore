@@ -1,0 +1,17 @@
+# Backend
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/datasets/
+backend/datalens.db
+backend/.env
+backend/test.csv
+backend/test_upload.py
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# General
+.DS_Store
+*.pyc

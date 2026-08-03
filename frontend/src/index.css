@@ -1,0 +1,95 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background: #F7FBFF;
+  color: #1A1A2E;
+  font-size: 15px;
+}
+
+:root {
+  --color-primary:       #5BAADC;
+  --color-primary-dark:  #1A6FA8;
+  --color-primary-light: #E2EEF9;
+  --color-accent:        #F5A463;
+  --color-accent-dark:   #C4661A;
+  --color-accent-light:  #FFF0E5;
+  --color-bg-page:       #F7FBFF;
+  --color-bg-card:       #FFFFFF;
+  --color-bg-muted:      #F2F4F7;
+  --color-border:        #E2EEF9;
+  --color-border-strong: #C8DFEE;
+  --color-text:          #1A1A2E;
+  --color-text-muted:    #6B8BAA;
+  --color-text-hint:     #A0B4C8;
+  --color-success:       #1A7A47;
+  --color-success-bg:    #E6F6EE;
+  --color-danger:        #C0392B;
+  --color-danger-bg:     #FDECEA;
+  --radius-sm:  6px;
+  --radius-md:  8px;
+  --radius-lg:  12px;
+  --radius-xl:  16px;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+  --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* ── Desktop: sidebar visible, mobile topbar hidden ── */
+@media (min-width: 769px) {
+  [data-mobile-sidebar] { display: none !important; }
+  [data-mobile-topbar]  { display: none !important; }
+}
+
+/* ── Mobile ── */
+@media (max-width: 768px) {
+  [data-desktop-sidebar] { display: none !important; }
+  [data-mobile-topbar]   {
+    display:      flex !important;
+    align-items:  center;
+    gap:          12px;
+    padding:      10px 1rem;
+    background:   #fff;
+    border-bottom:1px solid #E2EEF9;
+    position:     sticky;
+    top:          0;
+    z-index:      50;
+  }
+  [data-mobile-sidebar] { display: block !important; }
+
+  /* Content padding */
+  [data-content] { padding: 1rem !important; }
+
+  /* Guest banner stacks properly */
+  [data-guest-banner] {
+    flex-direction: column !important;
+    align-items:    flex-start !important;
+    gap:            8px !important;
+  }
+
+  /* Stats grid — 2 columns on mobile */
+  [data-stats-grid] {
+    grid-template-columns: 1fr 1fr !important;
+  }
+
+  /* Insights grid — 1 column on mobile */
+  [data-insights-grid] {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Dashboard header stack */
+  [data-dash-header] {
+    flex-direction: column !important;
+    align-items:    flex-start !important;
+  }
+
+  /* Query row stack */
+  [data-query-row] {
+    flex-direction: column !important;
+  }
+
+  body { font-size: 14px; }
+}
