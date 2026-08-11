@@ -290,7 +290,7 @@ You will also need a **Groq API key** for the LLM functionality.
 ## 1. Clone the Repository
 
 ```bash
-git clone <imdarshhhhan>
+git clone mdarshhhhan
 
 cd DataLens
 ```
@@ -331,22 +331,6 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
----
-
-## 3. Environment Variables
-
-Create a `.env` file inside the backend directory.
-
-```env
-GROQ_API_KEY=your_groq_api_key
-JWT_SECRET=your_secret_key
-GOOGLE_CLIENT_ID=your_google_client_id
-GOOGLE_CLIENT_SECRET=your_google_client_secret
-```
-
-Add any additional environment variables required by your deployment configuration.
-
----
 
 ## 4. Start the Backend
 
