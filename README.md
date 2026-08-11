@@ -332,7 +332,7 @@ pip install -r requirements.txt
 ```
 
 
-## 4. Start the Backend
+## 3. Start the Backend
 
 ```bash
 uvicorn main:app --reload
@@ -342,7 +342,7 @@ The FastAPI server will start locally.
 
 ---
 
-## 5. Frontend Setup
+## 4. Frontend Setup
 
 Open another terminal:
 
