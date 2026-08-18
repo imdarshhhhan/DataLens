@@ -290,7 +290,7 @@ You will also need a **Groq API key** for the LLM functionality.
 ## 1. Clone the Repository
 
 ```bash
-git clone mdarshhhhan
+git clone imdarshhhhan
 
 cd DataLens
 ```
@@ -458,13 +458,10 @@ The goal is simple:
 Potential improvements include:
 
 * Advanced visualization recommendations
-* More database connectors
 * Streaming analysis for larger datasets
 * Advanced statistical analysis
-* Automated report generation
 * More LLM providers
 * Query optimization
-* Role-based access control
 * Collaborative dataset analysis
 
 ---
