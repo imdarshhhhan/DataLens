@@ -1,5 +1,5 @@
 
-# 🔎 DataLens — AI-Powered Data Analytics Platform
+# DataLens — AI-Powered Data Analytics Platform
 
 **DataLens** is an AI-powered data analytics platform that allows users to upload **CSV, Excel, and JSON datasets**, query their data using **natural language**, generate automated analytical insights, and export results without requiring SQL knowledge.
 
@@ -7,9 +7,9 @@ The platform combines **LLMs, Natural Language-to-SQL generation, DuckDB, FastAP
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
-### 📂 Multi-Format Dataset Upload
+###  Multi-Format Dataset Upload
 
 Upload datasets in:
 
@@ -19,7 +19,7 @@ Upload datasets in:
 
 DataLens automatically processes the uploaded dataset and prepares it for analysis.
 
-### 💬 Natural Language Data Querying
+###  Natural Language Data Querying
 
 Users can ask questions about their dataset using natural language instead of writing SQL.
 
@@ -29,7 +29,7 @@ Users can ask questions about their dataset using natural language instead of wr
 
 DataLens converts the natural-language question into SQL and executes it against the uploaded dataset.
 
-### 🤖 NL-to-SQL Pipeline
+###  NL-to-SQL Pipeline
 
 DataLens uses **Groq LLaMA 3.3 70B** to translate natural-language questions into SQL queries.
 
@@ -44,7 +44,7 @@ The pipeline also includes:
 * Confidence scoring
 * Query execution
 
-### 🧠 AI-Powered Insights
+###  AI-Powered Insights
 
 After a dataset is uploaded, DataLens generates context-aware analytical insights using an LLM.
 
@@ -59,11 +59,11 @@ The insight engine can generate:
 
 The platform generates approximately **8–12 analytical observations** for each uploaded dataset.
 
-### 📊 Data Visualization
+### Data Visualization
 
 Query results and dataset information are presented through an interactive frontend, allowing users to understand their data through visual representations and analytical results.
 
-### 🔐 Secure Authentication
+### Secure Authentication
 
 DataLens provides multiple authentication mechanisms:
 
@@ -74,11 +74,11 @@ DataLens provides multiple authentication mechanisms:
 
 Guest sessions automatically expire after **7 days**.
 
-### 👤 User Data Isolation
+### User Data Isolation
 
 Each user's datasets, queries, and session information are isolated to prevent unauthorized access to another user's data.
 
-### ⚡ Session & Query Management
+### Session & Query Management
 
 The platform includes:
 
@@ -88,7 +88,7 @@ The platform includes:
 * Guest-session cleanup
 * Concurrent user support
 
-### 📄 Export
+###  Export
 
 Users can export analytical results and reports in:
 
@@ -96,7 +96,7 @@ Users can export analytical results and reports in:
 * CSV
                                     
 
-# 🔄 Application Flow
+# Application Flow
 
 ## 1. Dataset Upload
 
@@ -246,7 +246,7 @@ Follow-up Questions
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 ```text
 DataLens/
@@ -369,7 +369,7 @@ User-specific datasets and query history are isolated to support concurrent user
 
 ---
 
-# 📈 Performance & Scalability
+#  Performance & Scalability
 
 DataLens is designed to support analytical queries on datasets containing up to approximately **100K rows**.
 
@@ -435,7 +435,7 @@ Visualization / Insight
 
 ---
 
-# 🎯 Why DataLens?
+#  Why DataLens?
 
 Traditional data analysis often requires users to understand:
 
@@ -466,7 +466,7 @@ Potential improvements include:
 
 ---
 
-# 👨‍💻 Author
+# Author
 
 **Darshan**
 
