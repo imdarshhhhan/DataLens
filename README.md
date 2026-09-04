@@ -1,5 +1,5 @@
 
-# DataLens — AI-Powered Data Analytics Platform
+# DataLens — AI-Assisted Data Analytics Application
 
 **DataLens** is an AI-powered data analytics platform that allows users to upload **CSV, Excel, and JSON datasets**, query their data using **natural language**, generate automated analytical insights, and export results without requiring SQL knowledge.
 
